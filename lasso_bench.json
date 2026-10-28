@@ -1,0 +1,42 @@
+{
+ "lasso": {
+  "eth_blockNumber": {
+   "p50": 830,
+   "p95": 5018,
+   "ok": "23/25",
+   "same_result": null
+  },
+  "eth_getBalance": {
+   "p50": 804,
+   "p95": 1221,
+   "ok": "24/25",
+   "same_result": true
+  },
+  "eth_call": {
+   "p50": 804,
+   "p95": 887,
+   "ok": "25/25",
+   "same_result": true
+  }
+ },
+ "direct": {
+  "eth_blockNumber": {
+   "p50": 821,
+   "p95": 30019,
+   "ok": "22/25",
+   "same_result": null
+  },
+  "eth_getBalance": {
+   "p50": 830,
+   "p95": 1558,
+   "ok": "24/25",
+   "same_result": true
+  },
+  "eth_call": {
+   "p50": 843,
+   "p95": 972,
+   "ok": "25/25",
+   "same_result": true
+  }
+ }
+}
